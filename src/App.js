@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import reactconf_00 from './images/reactconf_00.jpg'
-import reactconf_01 from './images/reactconf_01.jpg'
-import reactconf_02 from './images/reactconf_02.jpg'
-import reactconf_03 from './images/reactconf_03.jpg'
 import chessgame from './images/chess-world.jpg'
 import matong from './images/2.png'
 import background from './images/1.png'

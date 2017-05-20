@@ -7,7 +7,7 @@ import mergeImages from 'merge-images'
 
 class App extends Component {
 
-  state = {src: background}
+  state = {zoom:1, src: background}
 
   handleClick = () => {
     // this.setState({index:(this.state.index+1)%5})
@@ -38,7 +38,7 @@ class App extends Component {
     return (
       <div className="App">
         <a-scene embedded>
-          <a-entity camera={`zoom: ${this.state.zoom}`} look-controls></a-entity>
+          <a-entity rotation="0 60 0" camera={`zoom: ${this.state.zoom}`} look-controls></a-entity>
           <a-box color="red" position="0 2 -9" rotation="0 45 45" scale=".6 .6 .6"></a-box>
           {/* <a-entity geometry="primitive: sphere;radius: 4000" material={`side: back; src: url(${background}); repeat:-1 1`} ></a-entity> */}
           <a-sky src={this.state.src}></a-sky>

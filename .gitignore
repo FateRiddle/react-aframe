@@ -15,10 +15,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-
-/src/images/chess-world.jpg
-/src/images/reactconf_00.jpg
-/src/images/reactconf_01.jpg
-/src/images/reactconf_02.jpg
-/src/images/reactconf_03.jpg

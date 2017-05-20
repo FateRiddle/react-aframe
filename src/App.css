@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a-scene {
+  top: 10px;
+  height: 600px;
+  width: 1000px;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  margin-top: 50px;
+}
+
+img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 720px;
+  height: 360px;
+}

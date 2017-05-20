@@ -5,11 +5,9 @@ import matong from './images/2.png'
 import background from './images/1.png'
 import mergeImages from 'merge-images'
 
-const srcNames = [chessgame,reactconf_00,reactconf_01,reactconf_02,reactconf_03]
-
 class App extends Component {
 
-  state = {index: 1, zoom: 1, src: background}
+  state = {src: background}
 
   handleClick = () => {
     // this.setState({index:(this.state.index+1)%5})
